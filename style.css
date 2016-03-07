@@ -1,0 +1,22 @@
+.file-bar{
+	width: 40%;
+	background: #eee;
+	padding: 3px;
+	margin-bottom: 10px;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.file-bar-fill{
+	height: 20px;
+	display: block;
+	background: cornflowerblue;
+	width: 0;
+	border-radius: 3px;
+	transition: width 0.8s ease;
+}
+.file-bar-fill-text{
+	color: #fff;
+	padding: 3px;
+}
